@@ -20,12 +20,6 @@ user_route.use(bodyParser.urlencoded({extended:true}));
 
 const userController = require("../controllers/userController");
 
-
-
-
-
-
-
 const multer = require("multer");
 const path = require("path");
 
